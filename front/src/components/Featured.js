@@ -10,9 +10,9 @@ const Featured = () => {
         <div class="carousel-inner">
     <div class="carousel-item active">
     <div class="card text-bg-dark">
-  <img style={{ height: "500px"}} src="https://images.pexels.com/photos/274249/pexels-photo-274249.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="d-block w-100" className="card-img" alt="..." />
+  <img style={{ height: "500px"}} src="https://images.pexels.com/photos/274249/pexels-photo-274249.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="d-block w-100 opacity-75" className="card-img" alt="..." />
   <div class="card-img-overlay">
-    <h5 class="card-title secondary">Card title</h5>
+    <h5 class="card-title secondary fw-bolder">Card title</h5>
     <p class="card-text text-secondary">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
     <p class="card-text"><small>Last updated 3 mins ago</small></p>
   </div>
