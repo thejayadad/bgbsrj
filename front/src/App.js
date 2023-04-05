@@ -7,7 +7,7 @@ import Update from "./pages/Update";
 
 function App() {
   return (
-    <div>
+    <div className="h-screen max-w-screen-lg m-auto ">
       <Routes>
 
         <Route path="/" element={<Home />} />
